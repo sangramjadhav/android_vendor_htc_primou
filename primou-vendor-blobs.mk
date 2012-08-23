@@ -76,7 +76,7 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_COPY_FILES += \
     vendor/htc/primou/proprietary/bin/awb_camera:/system/bin/awb_camera \
-    vendor/htc/primou/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/htc/primou/proprietary/bin/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/primou/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/primou/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
     vendor/htc/primou/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
@@ -87,17 +87,18 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primou/proprietary/lib/libchromatix_s5k4e5yx_hfr_4x.so:system/lib/libchromatix_s5k4e5yx_hfr_4x.so \
     vendor/htc/primou/proprietary/lib/libchromatix_s5k4e5yx_preview.so:system/lib/libchromatix_s5k4e5yx_preview.so \
     vendor/htc/primou/proprietary/lib/libcubicRotateTransition.so:system/lib/libcubicRotateTransition.so \
-    vendor/htc/primou/proprietary/lib/libzoomTransition.so:system/lib/libzoomTransition.so \
+    vendor/htc/primou/proprietary/lib/libmmcamera_rawchipproc.so:system/lib/libmmcamera_rawchipproc.so \
     vendor/htc/primou/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/primou/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
-    vendor/htc/primou/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-    vendor/htc/primou/proprietary/lib/libmmcamera_rawchipproc.so:system/lib/libmmcamera_rawchipproc.so \
     vendor/htc/primou/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/htc/primou/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/htc/primou/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
-    vendor/htc/primou/proprietary/bin/lsc_camera:/system/bin/lsc_camera \
+    vendor/htc/primou/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
+    vendor/htc/primou/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/htc/primou/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/primou/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so
+    vendor/htc/primou/proprietary/lib/libsurfaceflinger_client.so:/system/lib/libsurfaceflinger_client.so \
+    vendor/htc/primou/proprietary/lib/libzoomTransition.so:system/lib/libzoomTransition.so \
+    vendor/htc/primou/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so 
 
 # Ril
 PRODUCT_COPY_FILES += \
