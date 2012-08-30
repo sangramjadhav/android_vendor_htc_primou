@@ -27,11 +27,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primou/proprietary/etc/AIC3254_REG.csv:system/etc/AIC3254_REG.csv \
     vendor/htc/primou/proprietary/etc/AudioBTID.csv:system/etc/AudioBTID.csv \
     vendor/htc/primou/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
-    vendor/htc/primou/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/htc/primou/proprietary/etc/CodecDSPID.txt:system/etc/CodecDSPID.txt \
     vendor/htc/primou/proprietary/etc/TPA2051_CFG.csv:system/etc/TPA2051_CFG.csv \
     vendor/htc/primou/proprietary/etc/firmware/default.acdb:system/etc/firmware/default.acdb \
     vendor/htc/primou/proprietary/etc/firmware/default_org.acdb:system/etc/firmware/default_org.acdb \
+    vendor/htc/primou/proprietary/etc/firmware/default_mfg.acdb:system/etc/firmware/default_mfg.acdb \
     vendor/htc/primou/proprietary/etc/firmware/default_org_wb.acdb:system/etc/firmware/default_org_wb.acdb \
 	
 # Wifi/BT firmware
@@ -55,7 +55,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primou/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
     vendor/htc/primou/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/primou/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-    vendor/htc/primou/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so
+    vendor/htc/primou/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
+    vendor/htc/primou/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
+    vendor/htc/primou/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
+    vendor/htc/primou/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
+    vendor/htc/primou/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so
 
 # Camera
 PRODUCT_COPY_FILES += \
@@ -97,28 +101,20 @@ PRODUCT_COPY_FILES += \
 
 # Random Crap..Verify necessity 
 PRODUCT_COPY_FILES += \
-    vendor/htc/primou/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
-    vendor/htc/primou/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
-    vendor/htc/primou/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/primou/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
     vendor/htc/primou/proprietary/lib/libmmosal.so:/system/lib/libmmosal.so \
     vendor/htc/primou/proprietary/lib/libmmparser.so:/system/lib/libmmparser.so \
     vendor/htc/primou/proprietary/lib/libmmparser_divxdrmlib.so:/system/lib/libmmparser_divxdrmlib.so \
-    vendor/htc/primou/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
-    vendor/htc/primou/proprietary/lib/libv8.so:/system/lib/libv8.so \
     vendor/htc/primou/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/primou/proprietary/bin/logcat2:/system/bin/logcat2 \
+    vendor/htc/primou/proprietary/bin/htc_ebdlogd:/system/bin/htc_ebdlogd \
     vendor/htc/primou/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/primou/proprietary/bin/zcb:/system/bin/zcb \
-    vendor/htc/primou/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
     vendor/htc/primou/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
-    vendor/htc/primou/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/primou/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
-    vendor/htc/primou/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/primou/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
-    vendor/htc/primou/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
-    vendor/htc/primou/proprietary/lib/libhardware_legacy.so:/system/lib/libhardware_legacy.so \
-    vendor/htc/primou/proprietary/lib/libv8.so:system/lib/libv8.so
+    vendor/htc/primou/proprietary/lib/libv8.so:/system/lib/libv8.so \
+    vendor/htc/primou/proprietary/lib/libhardware_legacy.so:/system/lib/libhardware_legacy.so
 	
 	
     
