@@ -83,9 +83,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primou/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/htc/primou/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/htc/primou/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
+    vendor/htc/primou/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/htc/primou/proprietary/bin/lsc_camera:/system/bin/lsc_camera \
-    vendor/htc/primou/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/primou/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so
+    vendor/htc/primou/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so
+
 
 # Ril
 PRODUCT_COPY_FILES += \
